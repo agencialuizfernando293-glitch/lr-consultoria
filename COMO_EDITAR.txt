@@ -1,0 +1,67 @@
+COMO EDITAR O SITE DA L&R NO GITHUB
+
+ARQUIVOS DA PASTA:
+- index.html      = site inteiro
+- logo-lr.webp    = logo do topo
+- hero-lr.webp    = imagem principal 3D do atendimento
+
+COMO SUBIR A VERSÃO NOVA NO GITHUB:
+1. Entre no repositório: lrconsultoria.github.io/lr-consultoria
+2. Clique em "Add file" > "Upload files"
+3. Arraste estes 3 arquivos:
+   - index.html
+   - logo-lr.webp
+   - hero-lr.webp
+4. Marque para substituir os arquivos antigos.
+5. Clique em "Commit changes".
+6. Aguarde 1 a 3 minutos e atualize o site.
+
+COMO EDITAR TEXTOS, WHATSAPP E INSTAGRAM:
+1. No GitHub, clique no arquivo index.html.
+2. Clique no ícone do lápis.
+3. Aperte Ctrl + F e procure por:
+   EDITAR AQUI
+4. Você vai encontrar esta parte:
+
+const SITE_CONFIG = {
+  companyName: "L&R Consultoria Previdenciária",
+  whatsappNumber: "5521964647899",
+  whatsappVisible: "(21) 96464-7899",
+  instagramUrl: "https://www.instagram.com/lr.previdenciaria/",
+  instagramHandle: "@lr.previdenciaria",
+  city: "Atendimento online para todo o Brasil",
+  serviceHours: "Segunda a sexta, das 8h às 18h",
+  messages: { ... }
+};
+
+O QUE VOCÊ PODE MUDAR:
+- companyName: nome da empresa
+- whatsappNumber: número do WhatsApp sem espaço, traço ou parênteses
+- whatsappVisible: número que aparece escrito no site
+- instagramUrl: link do Instagram
+- instagramHandle: @ do Instagram
+- city: frase de atendimento
+- serviceHours: horário
+- messages: mensagens que chegam no WhatsApp
+
+EXEMPLO PARA TROCAR WHATSAPP:
+De:
+whatsappNumber: "5521964647899"
+
+Para:
+whatsappNumber: "5521999999999"
+
+EXEMPLO PARA TROCAR IMAGEM:
+Se quiser trocar a imagem principal, salve a nova imagem com o nome:
+hero-lr.webp
+
+Depois envie para o GitHub substituindo a antiga.
+
+Se quiser trocar a logo, salve a nova logo com o nome:
+logo-lr.webp
+
+Depois envie para o GitHub substituindo a antiga.
+
+IMPORTANTE:
+Não apague aspas, vírgulas ou chaves.
+Troque apenas o texto dentro das aspas.
