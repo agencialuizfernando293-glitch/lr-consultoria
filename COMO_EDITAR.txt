@@ -25,8 +25,8 @@ COMO EDITAR TEXTOS, WHATSAPP E INSTAGRAM:
 
 const SITE_CONFIG = {
   companyName: "L&R Consultoria Previdenciária",
-  whatsappNumber: "5521964647899",
-  whatsappVisible: "(21) 96464-7899",
+  whatsappNumber: "5521984051940",
+  whatsappVisible: "(21) 98405-1940",
   instagramUrl: "https://www.instagram.com/lr.previdenciaria/",
   instagramHandle: "@lr.previdenciaria",
   city: "Atendimento online para todo o Brasil",
@@ -46,10 +46,10 @@ O QUE VOCÊ PODE MUDAR:
 
 EXEMPLO PARA TROCAR WHATSAPP:
 De:
-whatsappNumber: "5521964647899"
+whatsappNumber: "5521984051940"
 
 Para:
-whatsappNumber: "5521999999999"
+whatsappNumber: "5521984051940"
 
 EXEMPLO PARA TROCAR IMAGEM:
 Se quiser trocar a imagem principal, salve a nova imagem com o nome:
